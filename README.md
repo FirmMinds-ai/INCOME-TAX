@@ -1,5 +1,5 @@
 # INCOME-TAX
-"""
+```
 import requests
 
 data =   {
@@ -103,4 +103,4 @@ res = requests.post(url = "https://incometaxcalc.herokuapp.com/upload", json = d
 res.json()
 
 
-"""
+```
