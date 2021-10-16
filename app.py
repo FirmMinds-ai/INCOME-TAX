@@ -47,7 +47,7 @@ def upload_file():
         income = sum(l)
 
         tax1 = income_tax(income)
-        print("tax amount is :" tax1, "Rupees")
+        print("tax amount is :" ,tax1, "Rupees")
         d = {
         "income" : income,
         "Tax" :tax1
