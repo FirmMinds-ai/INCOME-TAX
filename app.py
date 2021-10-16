@@ -33,7 +33,7 @@ def income_tax(income):
 
 
 
-@app.route("/upload", methods=['GET', 'POST'])
+@app.route("/calc", methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         data = request.get_json()
