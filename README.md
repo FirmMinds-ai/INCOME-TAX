@@ -1,4 +1,11 @@
 # INCOME-TAX
+
+## API END POINT (DEPLOYED IN HEROKU)
+```
+url = "https://incometaxcalc.herokuapp.com/upload"
+
+```
+
 ```
 import requests
 
