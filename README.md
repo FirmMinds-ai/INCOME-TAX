@@ -2,7 +2,7 @@
 
 ## API END POINT (DEPLOYED IN HEROKU)
 ```
-url = "https://incometaxcalc.herokuapp.com/upload"
+url = "https://incometaxcalc.herokuapp.com/calc"
 
 ```
 
@@ -105,7 +105,7 @@ data =   {
 ]
 }
 
-res = requests.post(url = "https://incometaxcalc.herokuapp.com/upload", json = data)
+res = requests.post(url = "https://incometaxcalc.herokuapp.com/calc", json = data)
 
 res.json()
 
